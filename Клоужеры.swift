@@ -41,7 +41,7 @@ func get1(_ key: Int) {
     }
 }
 
-get1(4)
+get1(5)
 
 var S = [String]()
 var Ni = [Int]()
