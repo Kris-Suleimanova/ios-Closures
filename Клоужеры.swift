@@ -33,15 +33,15 @@ for fri in P {
 print(Dictionary)
 
 
-func printFriend(_ key: Int) {
-    if let friend = Dictionary[key] {
-        print(friend,key)
+func get1(_ key: Int) {
+    if let f = Dictionary[key] {
+        print(f,key)
     } else {
         print("Не найден \(key)")
     }
 }
 
-printFriend(4)
+get1(4)
 
 var S = [String]()
 var Ni = [Int]()
